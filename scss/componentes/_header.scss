@@ -1,0 +1,26 @@
+.header{
+    background-image:linear-gradient(to left, rgb(217, 117, 216), pink, white);
+    width: 100%;
+    height: 150px;
+    }
+    h1{
+        @include titulo-principal(justify, crimson, 20px)
+    }
+    .navbar-expand-lg{
+       display: flex;
+        margin-top: 10px;
+        flex-direction: column;
+    
+        }
+       
+        .nav-link{
+            color: black;
+           
+           
+            
+            }
+        .nav-item{
+            color: black;
+           
+           
+        }   

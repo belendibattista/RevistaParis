@@ -1,0 +1,34 @@
+#main{
+    height: auto;
+    
+}
+
+
+
+h2{
+    @include titulo-secundario(50px, center, #82106d, 20px)
+   
+}   
+.carousel-inner{
+    width: 100vw;
+    margin-left: 50px;
+}
+.carousel-item{
+    width: 80vw;
+    margin-left: 50px;
+    height: 50vh;
+}
+.btn-primary{
+    @extend %color-boton;
+    
+    }
+.formulario{
+   
+    margin-left: 400px;
+    margin-top: 20px;
+    border-radius: 10% solid black;
+    h2{
+        text-align: center;
+       
+    }
+}

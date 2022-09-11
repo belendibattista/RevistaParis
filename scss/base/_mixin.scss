@@ -1,0 +1,14 @@
+@mixin titulo-principal($valor, $valor1, $valor2) {
+    text-align: $valor;
+    color: $valor1;
+    padding: $valor2;
+    
+}
+
+@mixin titulo-secundario($valor, $valor1,$valor2, $valor3) {
+    margin-top: $valor;
+    text-align: $valor1;
+    color: $valor2;
+    margin-bottom: $valor3;
+    
+    }
