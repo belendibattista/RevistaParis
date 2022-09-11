@@ -22,15 +22,22 @@
         margin-bottom: 1px;
         width: 100px;
     }
+  
+
+        
     .carousel-inner{
        margin-left: 1px;
-       width: 20vw;
+       width: 100vw;
         
     }
     .carousel-item{
         margin-right: 50px;
-        width: 20vw;
+        width: 100vw;
     }
+    .col {
+        margin-left: 150px !important;
+    }
+    
     .formulario{
         margin-left: 150px;
 
@@ -60,6 +67,9 @@
         .carousel-inner{
             margin-left: 10px;
         }
+        .col {
+            margin-left: 100px !important;
+            }
         .formulario{
             margin-left: 200px;
             

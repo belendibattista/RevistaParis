@@ -1,11 +1,11 @@
-@import "scss/base/mixin";
-@import "scss/base/extends";
+@import "base/mixin";
+@import "base/extends";
 
-@import "scss/header";
-@import "scss/body";
-@import "scss/main";
-@import "scss/footer";
-@import "scss/mediaqueries";
+@import "componentes/header";
+@import "componentes/body";
+@import "componentes/main";
+@import "componentes/footer";
+@import "componentes/mediaqueries";
 
 
 
