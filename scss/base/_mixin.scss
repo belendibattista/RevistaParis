@@ -1,7 +1,8 @@
-@mixin titulo-principal($valor, $valor1, $valor2) {
+@mixin titulo-principal($valor, $valor1, $valor2 ) {
     text-align: $valor;
     color: $valor1;
     padding: $valor2;
+    
     
 }
 

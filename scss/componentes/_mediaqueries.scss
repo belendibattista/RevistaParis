@@ -1,42 +1,21 @@
-@media screen and (max-width: 812px){
-    .navbar{
-        z-index: 4 !important;
-        float: left;
-        font-size: 10px;
-        
+@media screen and (max-width: 912px){
+   
+    .galeria-conteiner{
+        grid-template-columns:repeat(3 , 1fr);
     }
-    .navbar-expand-lg{
-        margin-left: 10px;
-        justify-content: flex-start;
-    }
-    .navbar-nav .nav-link.active, .navbar-nav .show .nav-link{
-        width: 100px;
-        background-color: rgba(63, 16, 96, 0.256);
-        color: black !important;
-        margin-bottom: 1px;
-    }
-    .navbar .nav-link{
-        color: black !important;
-        background-color: rgba(63, 16, 96, 0.256);
-        
-        margin-bottom: 1px;
-        width: 100px;
-    }
-  
+    .columnas{
+        text-align: center;
+        margin-left: 5px;
 
-        
-    .carousel-inner{
-       margin-left: 1px;
-       width: 100vw;
-        
     }
-    .carousel-item{
-        margin-right: 50px;
-        width: 100vw;
+    .videos iframe{
+        margin-left: 35px;
+        width: auto;
     }
-    .col {
-        margin-left: 150px !important;
-    }
+    .card{
+        margin-left: 70px;
+        }
+    
     
     .formulario{
         margin-left: 150px;
@@ -44,35 +23,46 @@
     }
        
     }
-    @media screen and (max-width: 612px){
-        .navbar{
-            z-index: 4 !important;
-            float: right;
-            font-size: 10px;
-            
+    @media screen and (max-width: 712px){
+   
+        .galeria-conteiner{
+            grid-template-columns:repeat(3 , 1fr);
         }
-        .navbar-nav .nav-link.active, .navbar-nav .show .nav-link{
-            width: 100px;
-            background-color: rgba(63, 16, 96, 0.256);
-            color: black !important;
-            margin-bottom: 1px;
+        .columnas{
+            text-align: center;
+            margin-left: 5px;
+    
         }
-        .navbar .nav-link{
-            color: black !important;
-            background-color: rgba(63, 16, 96, 0.256);
-            
-            margin-bottom: 1px;
-            width: 100px;
-        }
-        .carousel-inner{
-            margin-left: 10px;
-        }
-        .col {
-            margin-left: 100px !important;
+        .card{
+            margin-left: 50px;
             }
+    
         .formulario{
-            margin-left: 200px;
-            
+            margin-left: 150px;
+    
+        }
+        .videos iframe{
+            margin-left: 35px;
+            width: auto;
+        }
+        }
+
+    @media screen and (max-width: 612px){
+        .galeria-conteiner{
+            grid-template-columns:repeat(2 , 1fr);
+        }
+        .columnas{
+            text-align: center;
+        }
+        .card{
+            margin-left: 30px;
+            }
+        .videos iframe{
+            margin-left: 35px;
+            width: auto;
+            }
+       
+       
             }
            
-        }
+    
